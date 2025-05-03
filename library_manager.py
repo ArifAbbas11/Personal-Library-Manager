@@ -283,7 +283,7 @@ if lottie_book:
         st_lottie(lottie_book, height = 200, key = 'book_animation')
 
 nav_options = st.sidebar.radio(
-    "choose an option:"
+    "choose an option:",
     ["View Library", "Add Book", "Search Book", "Library Statistics"])
 
 if nav_options == "View Library":
